@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/common/common.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/body/body.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/css/fontello.css">
+  </head>
+  <body>
+
+      <div class="header">
+        <div class="header__bg"></div>
+        <div class="header__bg header__bg_yellow"></div>
+        <div class="main-wrapper">
+          <div class="header__top">
+            <div class="logo">
+              Test
+            </div>
+            <div class="main-menu">
+              <div class="main-menu__left">
+                <ul class="items">
+                  <li class="item">Menu
+                    <i class="icon-down-open-mini"></i>
+                    <ul class="submenu">
+                      <li class="submenu-item">Menu 1</li>
+                      <li class="submenu-item">Menu 2</li>
+                      <li class="submenu-item">Menu 3</li>
+                      <li class="submenu-item">Menu</li>
+                      <li class="submenu-item">Menu</li>
+                      <li class="submenu-item">Menu</li>
+                      <li class="submenu-item">Menu</li>
+                    </ul>
+                  </li>
+                  <li class="item">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                  <li class="item">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                  <li class="item">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="main-menu__right">
+                <ul class="items">
+                  <li class="item item_dark">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                  <li class="item item_dark">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                  <li class="item item_dark">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                  <li class="item item_dark">Menu
+                    <i class="icon-down-open-mini"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-menu">
+              <i class="icon-menu"></i>
+            </div>
+            <div class="mobile-menu__items">
+              <ul>
+                <li class="mobile-menu__item">Menu
+                  <i class="icon-down-open-mini"></i>
+                </li>
+                <li class="mobile-menu__item">Menu
+                  <i class="icon-down-open-mini"></i>
+                </li>
+                <li class="mobile-menu__item">Menu
+                  <i class="icon-down-open-mini"></i>
+                </li>
+                <li class="mobile-menu__item">Menu
+                  <i class="icon-down-open-mini"></i>
+                </li>
+              </ul>
+              <div class="mobile-menu__close"></div>
+            </div>
+          </div>
+        </div>
+        <div class="header__title">
+          <div class="header-text">
+            Hello
+          </div>
+          <div class="header-text header-text_large">
+            This is <span class="header-text_dark">test</span>
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <div class="body">
+          <div class="body__title">
+            <div class="title">
+              Demo title
+            </div>
+          </div>
+          <div class="body__description">
+            <div class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__bg"></div>
+        <div class="main-wrapper">
+          <div class="footer__title">
+            <div class="title title_white">
+              Connect with us
+            </div>
+          </div>
+          <div class="footer__description">
+            <div class="description description_white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </div>
+          </div>
+          <div class="footer__form" id="form">
+            <form class="form" name="form" action="index.html" method="post">
+              <div class="form__input">
+                <input type="text" name="name" value="" placeholder="Name" id="name" onkeyup="inputChangeName(event)">
+                <div class="valid-icon"></div>
+              </div>
+              <div class="form__input">
+                <input type="text" name="email" value="" placeholder="Email" id="email" onkeyup="inputChangeEmail(event)">
+                <div class="valid-icon"></div>
+              </div>
+              <div class="form__input">
+                <input type="text" name="Phone" value="" placeholder="Phone" id="phone" onkeyup="inputChangePhone(event)">
+                <div class="valid-icon"></div>
+              </div>
+              <div class="form__input">
+                <textarea type="text" name="message" value="" placeholder="Message" class="form__textarea" id="form__textarea" onkeyup="inputChangeName(event)"></textarea>
+                <div class="valid-icon"></div>
+              </div>
+              <button name="button" class="form__button" id="submit" type="submit" >
+                <a href="javascript:void(0)" onclick="validate(this.form);">Send message</a>
+                <div class="form__send description description_white">
+                  Sending...
+                </div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script src="js/common.js"></script>
+
+  </body>
+</html>
